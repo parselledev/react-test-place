@@ -1,5 +1,11 @@
+import { Dashboard } from 'features/dashboard';
+
 const Content = () => {
-  return <div>content</div>;
+  return (
+    <div>
+      <Dashboard />
+    </div>
+  );
 };
 
 export default Content;
